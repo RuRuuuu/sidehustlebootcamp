@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        nav{
+        display:flex;
+        justify-content: space-between;
+        height:60px;
+        border-bottom: solid;
+        box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.1);
+        border-color:white;
+        background-color: white;
+
+        }
+        .success{
+            background-color:#41276D;
+            opacity: 0.5;
+            width:140px;
+            height:40px;
+            border-radius: 8px;
+            color:white;
+            font-size: large;
+            border-color: #41276D;
+            margin-top: 8px;
+            margin-bottom: 7px;
+        }
+         .open{
+            background-color:aliceblue;
+            height:40px;
+            width:140px;
+            border-radius: 8px;
+            margin-right: 40px;
+            border-color: purple;
+            border-width: 1px;
+        }
+        .kudaa{
+            border-style:solid;
+            width:350px;
+            text-align:justify;
+            margin-left: 50px;
+            padding: 30px;
+            border-radius: 8px;
+            border-color: white;
+            background-color: white 0.6;
+            padding-top: 10px;
+            box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+            background-color: white;
+        }
+        .linkk{
+            margin-left: 50px;
+            width: 395px;
+            background-color:aliceblue;
+            border-radius: 6px;
+            height:50px;
+            padding-left: 20px;
+            padding-top: 8px;
+            margin-top: 30px;
+            margin-bottom: 14px;
+            box-shadow:0px 1px 1px 0px rgba(0,0,0,0.10);
+            border-style: solid;
+            border-color:aliceblue
+            
+            
+
+        }
+        body{
+            overflow-y: scroll;
+            background-color: rgb(255, 252, 255);
+            
+        }
+        img{
+            margin-left: 50px;
+        }
+        input{
+            width:300px;
+            height:34px;
+            box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+            border-style: solid;
+            border-color: white;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        p{
+            font-size: 12px;
+            color:rgba(0,0,0,0.4);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 545;
+        }
+        .purple{
+            color:#41276D;
+            opacity: 0.9;
+            font-size: 11px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        #colored{
+            color:green;
+        }
+    span{
+        color:#41276D;
+        font-weight: 550;
+    }
+    h3{
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+    label{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    .here{
+        font-size: 11px;
+        color:#41276D;
+    }
+    
+    
+    
+    </style>
+</head>
+<body>
+    <main>
+        <nav>
+            <img src="kudalogo.png" alt="kudalogo">
+            <button class="open">Open an  Account</button>
+        </nav>
+        <div class="linkk">
+            <p class="purple">please check that you are visiting the correct URL<br>
+            <a href="https://app.kuda.com/" id="colored">https://app.kuda.com/</a></p>
+        </div>
+        <div class="kudaa">
+            <h3>Sign In to Kuda</h3>
+            <p>To sign in, please type in the email address linked<br>
+            to your Kuda account.</p><br>
+            <label for="email">Email Address</label><br>
+            <input type="text" name="email" placeholder="example@gmail.com">
+            <br><br>
+            <label for="password">Password</label><br>
+            <input type="password" name="password" placeholder="********">
+            <br><br>
+            <p>Forgotten Password? <span>Reset it</span></p>
+            <button type="button" class="success">Sign in</button>
+            <p>If you dont have a kuda account download the app,<span class="here">here</span><br>
+            and open an account a few minutes</p>
+        </div>
+    </main>
+</body>
+</html>
